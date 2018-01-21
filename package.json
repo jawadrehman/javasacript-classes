@@ -1,0 +1,19 @@
+{
+  "name": "js-ds",
+  "private": true,
+  "scripts": {
+    "build": "babel src -d lib",
+    "start" : "npm run build && node lib/index.js"
+  },
+  "dev-dependencies": {
+    "babel-cli": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
+}
